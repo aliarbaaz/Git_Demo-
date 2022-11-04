@@ -1,0 +1,32 @@
+Git config --global user.name "aliarbaaz"
+Git config --global user.email abcd@gmail.com
+Git config --list
+pwd									(print working directory)
+mkdir	dirname							(create new directory)
+rm -Rf dirname							(delete the directory)
+cd dirname								(Enter into directory)
+ls									(Show list of files in folder)
+Git init								(Initializing)
+vim filename							(Create new file and start writing into it) & (To save: esc+shift+; then type wq)
+touch filename							(Only create new file)
+notepad filename							(Write into a file)
+Git status								(Check the status of repo)
+Git add filename							(Add file contents to the index)
+Git add .								(Add all files)
+Git rm filename							(Remove the file)
+Git commit -m "message" filename				(Commit the file)
+Git log								(Show commit logs)
+Git show ------id--------					(Show the content of commited file)
+clear									(Clear the terminal)
+
+//For https
+git remote add origin https://github.com/aliarbaaz/Git_Demo-.git
+git remote -v 		(To check added status)
+git push -u origin master
+
+//For SSH
+ssh-keygen -t rsa -C mohammedarbaaz265@gmail.com
+ssh -T git@github.com (To check added status)
+git clone git@github.com:aliarbaaz/SecondRepo.git
+ls -ltr
+
